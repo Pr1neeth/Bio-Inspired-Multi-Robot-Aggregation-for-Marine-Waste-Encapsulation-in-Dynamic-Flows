@@ -25,24 +25,24 @@ conda activate ocean
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-### 3. To Run Static Trained Model
+### 3. Run Static Trained Model
 ```
 cd Static
 python3 run_trained_ppo_static.py
 ```
 
-### 4. To Train a Static Model
+### 4. Train a Static Model
 ```
 cd Static
 python3 train_ppo_static.py --timestep 1000000 --vec 8 --seed 0
 ```
 
-### 5. To Run Trained Dynamic Model
+### 5. Run Trained Dynamic Model
 ```
 cd Dynamic
 python3 run_trained_ppo_dynamic.py
 ```
-### 6. To Train a Dynamic Model
+### 6. Train a Dynamic Model
 ```
 cd Dynamic
 python3 train_ppo_dynamic.py --timestep 1000000 --vec 8 --seed 0
