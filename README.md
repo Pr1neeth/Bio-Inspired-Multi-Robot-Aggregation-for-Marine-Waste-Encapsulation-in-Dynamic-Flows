@@ -40,7 +40,7 @@ python3 train_ppo_static.py --timestep 1000000 --vec 8 --seed 0
 ### 5. To Run Trained Dynamic Model
 ```
 cd Dynamic
-python3 run_trained_ppo_static.py
+python3 run_trained_ppo_dynamic.py
 ```
 ### 6. To Train a Dynamic Model
 ```
