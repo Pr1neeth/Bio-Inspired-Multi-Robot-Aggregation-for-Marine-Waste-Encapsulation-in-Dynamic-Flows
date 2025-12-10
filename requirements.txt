@@ -1,0 +1,10 @@
+numpy>=1.26
+gymnasium>=0.29.1
+pygame>=2.5.2
+stable-baselines3[extra]>=2.3.0
+torch>=2.0.0
+tensorboard>=2.10
+opencv-python>=4.8.0
+rich>=13.0
+tqdm>=4.65
+
